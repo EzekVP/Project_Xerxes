@@ -31,7 +31,7 @@
         </div>
 
         <div class="input-field">
-            <input type="submit" class="submit" value="Login" id="">
+            <input type="submit" class="submit" value="Login" id="Login">
         </div>
         <div class="two-col">
             <div class="one">
@@ -43,7 +43,17 @@
                 <label><b href="#">Have an account?</b></label>
             </div>
         </div>
+        
     </div>
+    
 </div>  
+<script>
+function goToPage1() {
+    // Change the page location to Page 1
+    window.location.href = "home.html";
+}
+
+document.getElementById("Login").addEventListener("click", goToPage1);
+</script>
 </body>
 </html>
