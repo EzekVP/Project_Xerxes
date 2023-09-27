@@ -9,8 +9,8 @@ body, h1, h3, label {
 /* Add basic styling for the body and container */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    background-image: url("./mental-health-woman (1).jpg");
+    background-color: #101010;
+    background-image: url("./WhatsApp Image 2023-09-27 at 12.57.12.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -22,7 +22,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #0a0a0a;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
@@ -31,17 +31,17 @@ body {
     background-image: url('your-transparent-image.png');
     background-size: cover; /* Adjust this as needed */
     background-repeat: no-repeat; /* Prevents image repetition */
-    padding: 30px; /* Add padding to the container as needed */
-    color: #fff; /* Text color */
-    background-color: rgba(64, 62, 62, 0.5); /* Adjust the last value (0.5) to set the opacity */
+    padding: 40px; /* Add padding to the container as needed */
+    color: #0b0a0a; /* Text color */
+    background-color: rgba(192, 185, 185, 0.712); /* Adjust the last value (0.5) to set the opacity */
 }
 
 
 /* Style the quiz heading */
 h1 {
     text-align: center;
-    color: #0f0f10;
-    font-size: 40px;
+    color: #0e043c;
+    font-size: 65px;
     margin-bottom: 20px;
 }
 
@@ -66,7 +66,7 @@ label {
     display: block;
     margin-top: 10px;
     font-size: 16px;
-    color: #f5f0f0;
+    color: #080808;
 }
 
 /* Style the radio buttons */
@@ -77,7 +77,7 @@ input[type="radio"] {
 
 /* Style the submit button */
 input[type="submit"] {
-    background-color: #007bff;
+    background-color: #0e043c;
     color: #fff;
     padding: 12px 24px;
     border: none;
@@ -90,5 +90,5 @@ input[type="submit"] {
 
 /* Style the hover effect for the submit button */
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #0e043c;
 }
