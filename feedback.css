@@ -1,0 +1,95 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  font-family: 'Arial', sans-serif;
+  background-color:whitesmoke;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.image-container {
+  background-color: gg#161bad; /* Set the background color of the container if needed */
+  position: fixed;
+    bottom: 60px; /* Adjust the distance from the bottom as needed */
+    right: 12px; /* Adjust the distance from the right as needed */
+}
+.image-container img {
+  background-image: url("./png-clipart-man-holding-black-android-smartphone-illustration-web-development-website-web-design-world-wide-web-web-banner-business-people-business-woman-search-engine-optimization-removebg-preview (3).png");
+  background-size:cover;
+  padding:300px;
+  max-width: 200px; /* Adjust the image size as needed */
+  height: 100px;
+}
+
+.container {
+  max-width: 1000px;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 60px;
+  box-shadow: 0 0 10px rgba(152, 110, 110, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border: 50x solid #39496a;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #3d444b;
+  color: #fff;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #071b2d;
+}
+
+/* Styling for Font Awesome icons (you need to include the Font Awesome library) */
+i.fas {
+  font-size: 18px;
+  margin-right: 17px;
+}

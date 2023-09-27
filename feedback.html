@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <title> Feedback Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Feedback</h1>
+        <form id="feedback-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="image-container">
+              <img src="services_website/feedback/png-clipart-man-holding-black-android-smartphone-illustration-web-development-website-web-design-world-wide-web-web-banner-business-people-business-woman-search-engine-optimization-removebg-preview (3).png" >
+          </div>
+            
+            <div class="form-group">
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="rating">Rate your experience:</label>
+                <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5" required>
+                    <label for="star5">5 stars</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">4 stars</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">3 stars</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">2 stars</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">1 star</label>
+                </div>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="feedback.js"></script>
+</body>
+</html>
