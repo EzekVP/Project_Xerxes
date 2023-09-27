@@ -50,11 +50,11 @@
   <body>
     <nav class="navbar">
       <div class="navdiv">
-        <div class="logo"><a href="#">HOME</a></div>
+        <div class="logo"><a href="home.html">HOME</a></div>
         <ul>
           <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Feedback</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
         </ul>
       </div>
     </nav>
@@ -72,7 +72,7 @@
             <div class="icon-wrapper">
               <i class="fas fa-eye"></i>
             </div>
-            <h3>ANXIETY TEST</h3>
+            <input type="submit" class="submit" value="Anxiety" id="anxiety">
             <p>
              
             </p>
@@ -83,7 +83,7 @@
             <div class="icon-wrapper">
               <i class="	fas fa-exclamation"></i>
             </div>
-            <h3>DEPRESSION TEST</h3>
+            <input type="submit" class="submit" value="Depression" id="dep">
             <p>
               
             </p>
@@ -114,5 +114,18 @@
         </div>
       </div-->
     </section>
+    <script>
+      function goToPage1() {
+          // Change the page location to Page 1
+          window.location.href = "anx.html";
+      }
+      function goToPage2() {
+          // Change the page location to Page 1
+          window.location.href = "dep2.html";
+      }
+      document.getElementById("anxiety").addEventListener("click", goToPage1);
+      document.getElementById("dep").addEventListener("click", goToPage2);
+      </script>
   </body>
+
 </html>
