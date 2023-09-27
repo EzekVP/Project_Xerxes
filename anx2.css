@@ -59,15 +59,15 @@
 /* Add styles for the image container */
 .image-container {
     position: fixed;
-    bottom: 50px; /* Adjust the distance from the bottom as needed */
-    right: 150px; /* Adjust the distance from the right as needed */
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    right: 200px; /* Adjust the distance from the right as needed */
 }
 
 .image-container img {
-    background-image: url("./burden-73");
+    background-image: url("./affirmations-for-anxiety.jpg");
     background-size:cover;
     padding:px;
-    max-width: 500px; /* Adjust the image size as needed */
+    max-width: 400px; /* Adjust the image size as needed */
     height: 300px;
 }
 

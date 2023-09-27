@@ -4,7 +4,7 @@
 }
 
 .main{
-    width: 100%;
+    width: 10%;
     background: linear-gradient(to top, rgba(254, 254, 254, 0.5)50%,rgba(255, 255, 255, 0.5)50%), url(1.jpg);
     background-position: center;
     background-size: cover;
@@ -59,12 +59,12 @@
 /* Add styles for the image container */
 .image-container {
     position: fixed;
-    bottom: 50px; /* Adjust the distance from the bottom as needed */
-    right: 150px; /* Adjust the distance from the right as needed */
+    bottom: 150px; /* Adjust the distance from the bottom as needed */
+    right: 50px; /* Adjust the distance from the right as needed */
 }
 
 .image-container img {
-    background-image: url("./burden-73");
+    background-image: url("./dep image.jpg");
     background-size:cover;
     padding:px;
     max-width: 500px; /* Adjust the image size as needed */
